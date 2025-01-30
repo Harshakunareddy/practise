@@ -1,0 +1,106 @@
+.chatbot-integration-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-secondary {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #ddd;
+  }
+  
+  .feedback-banner {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .integration-steps {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .integration-steps ol {
+    list-style-type: decimal;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .integration-steps li {
+    margin-bottom: 15px;
+  }
+  
+  .integration-success {
+    margin-top: 30px;
+    background-color: #e9f7e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .integration-success h3 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .social-sharing {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-btn {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .social-btn:hover {
+    background-color: #2d4373;
+  }
+  

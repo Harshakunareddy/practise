@@ -1,0 +1,146 @@
+/* Container for the setup form */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading style */
+  .auth-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .auth-container input,
+  .auth-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .auth-container input:focus,
+  .auth-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .auth-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .auth-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the fetch button to show loading state */
+  .auth-container button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Textarea styling */
+  .auth-container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 480px) {
+    .auth-container {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .auth-container h2 {
+      font-size: 20px;
+    }
+  
+    .auth-container input,
+    .auth-container textarea,
+    .auth-container button {
+      font-size: 14px;
+    }
+  }
+  
+
+
+
+
+
+  .scraping-status-container {
+    padding: 20px;
+  }
+  
+  .webpages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .webpage-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .webpage-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .webpage-item.detected {
+    background-color: lightblue;
+  }
+  
+  .webpage-item.scraped {
+    background-color: lightgreen;
+  }
+  
+  .webpage-item.pending {
+    background-color: lightcoral;
+  }
+
+  
+  .success-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .success-buttons {
+    margin-top: 20px;
+  }
+  
+  .success-buttons button {
+    margin: 10px;
+  }
+  
+  .social-share-buttons {
+    margin-top: 20px;
+  }
+  
+  .social-share-buttons button {
+    margin: 5px;
+  }
+  
